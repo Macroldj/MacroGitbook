@@ -1,0 +1,53 @@
+{
+  "title": "devEnv 文档管理器",
+  "author" : "lidj",
+  "description" : "关于开发环境和开发技巧的相关说明文档",
+  "language" : "zh-hans",
+
+
+  "plugins": [
+    "-lunr",
+    "-search",
+    "collapsible-menu",
+    "anchor-navigation-ex",
+    "tbfed-pagefooter",
+    "disqus",
+    "chapter-fold",
+    "popup",
+    "pageview-count",
+    "code",
+    "prism",
+    "search-pro@^2.0.2",
+    "emphasize",
+    "splitter",
+    "simple-page-toc",
+    "github"
+  ],
+
+  "pluginsConfig": {
+    "tbfed-pagefooter": {
+      "copyright":"Copyright &copy devops 2021",
+      "modify_label": "文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "disqus": {
+      "shortName": "macro Env"
+    },
+    "code": {
+      "size": 12
+    },
+    "theme-default": {
+      "showLevel": true
+    },
+    "simple-page-toc": {
+      "maxDepth": 3,
+      "skipFirstH1": true
+    },
+    "github": {
+        "url": "https://github.com/Macroldj/MacroEnv.git"
+    }
+  },
+  "styles": {
+    "website": "styles/website.css"
+  }
+}
