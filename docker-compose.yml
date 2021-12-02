@@ -3,7 +3,7 @@ version: '3'
 services:
   gitbook-server:
     build: ""
-    image: gitbook:v0.0.1
+    image: macroldj/gitbook:v0.0.1
     container_name: gitbook
     ports:
     - "80:80"

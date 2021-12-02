@@ -1,4 +1,4 @@
-FROM fellah/gitbook:latest
+FROM macroldj/gitbook:v1.0.1
 RUN /bin/cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo 'Asia/Shanghai' >/etc/timezone
 RUN npm config set registry https://registry.npm.taobao.org
 WORKDIR /srv/gitbook
